@@ -14,15 +14,21 @@ const Hero: React.FC = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
         >
-          <h2 className="text-blue-600 dark:text-blue-400 font-semibold tracking-wide uppercase text-sm mb-4">
-            Junior Information Engineer
-          </h2>
-          <h1 className="text-5xl md:text-7xl font-extrabold text-gray-900 dark:text-white mb-6">
-            Hi, I'm <span className="bg-gradient-to-r from-blue-600 to-emerald-500 bg-clip-text text-transparent">Alex Chen</span>
+          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-500/10 border border-blue-500/20 text-blue-400 text-xs font-mono mb-6">
+            <span className="relative flex h-2 w-2">
+              <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-blue-400 opacity-75"></span>
+              <span className="relative inline-flex rounded-full h-2 w-2 bg-blue-500"></span>
+            </span>
+            Available for mission-critical projects
+          </div>
+          
+          <h1 className="text-6xl md:text-8xl font-bold tracking-tighter text-white mb-8">
+            Engineering systems with <span className="text-blue-500">precision.</span>
           </h1>
-          <p className="max-w-2xl mx-auto text-lg md:text-xl text-gray-600 dark:text-gray-400 mb-10 leading-relaxed">
-            I build elegant, high-performance web applications with modern technologies. 
-            Passionate about scalable architecture, clean code, and creating intuitive user experiences.
+          
+          <p className="max-w-2xl mx-auto text-lg md:text-xl text-slate-400 mb-12 leading-relaxed">
+            I'm <span className="text-slate-100 font-medium">Alex Chen</span>, a Junior Information Engineer specializing in bridge-building between complex hardware and modern web ecosystems. 
+            Currently architecting automated solutions and scalable ERP companions.
           </p>
         </motion.div>
 
