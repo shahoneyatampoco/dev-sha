@@ -27,7 +27,7 @@ const Hero: React.FC = () => {
           </h1>
           
           <p className="max-w-2xl mx-auto text-lg md:text-xl text-slate-400 mb-12 leading-relaxed">
-            I'm <span className="text-slate-100 font-medium">Alex Chen</span>, a Junior Information Engineer specializing in bridge-building between complex hardware and modern web ecosystems. 
+            I'm <span className="text-slate-100 font-medium">Shahoney Tampoco</span>, a Junior Information Engineer specializing in bridge-building between complex hardware and modern web ecosystems. 
             Currently architecting automated solutions and scalable ERP companions.
           </p>
         </motion.div>
