@@ -6,22 +6,22 @@ const Skills: React.FC = () => {
     {
       title: 'Languages',
       icon: <Terminal className="text-blue-500" />,
-      skills: ['C#', 'SQL', 'TypeScript', 'Python', 'JavaScript'],
+      skills: ['PHP', 'C#', 'Java', 'SQL', 'TypeScript', 'Dart'],
     },
     {
-      title: 'Systems & Backend',
+      title: 'Web & Systems',
       icon: <Server className="text-emerald-500" />,
-      skills: ['.NET 10 / ASP.NET Core', 'FastAPI', 'ESC/POS Protocol', 'REST API Design'],
+      skills: ['Laravel / PHP', '.NET 10 Web API', 'Spring Boot / Java', 'MySQL', 'PostgreSQL'],
     },
     {
-      title: 'Frontend & UI',
+      title: 'Mobile Engineering',
       icon: <Layout className="text-purple-500" />,
-      skills: ['React', 'Tailwind CSS', 'Responsive Design', 'Component Architecture'],
+      skills: ['Flutter', 'React', 'Tailwind CSS', 'Responsive UI Design'],
     },
     {
-      title: 'Engineering Tools',
+      title: 'Core Expertise',
       icon: <Settings className="text-orange-500" />,
-      skills: ['Git / GitHub', 'TCP/IP Socket Programming', 'Postman', 'Unit Testing'],
+      skills: ['Information Systems', 'Database Architecture', 'ESC/POS Protocol', 'Socket Programming'],
     },
   ];
 

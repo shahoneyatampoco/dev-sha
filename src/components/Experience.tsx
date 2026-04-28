@@ -3,23 +3,23 @@ import { Briefcase, Calendar } from 'lucide-react';
 const Experience: React.FC = () => {
   const experiences = [
     {
-      company: 'Personal Development',
-      role: 'Junior Information Engineer',
-      period: '2024 - Present',
+      company: 'Junior Information Engineer',
+      role: 'Full-Time Professional',
+      period: 'Jan 2026 - Present',
       description: [
-        'Developed a high-performance .NET 10 desktop service for automated retail printing, integrating ESC/POS network protocols.',
-        'Architected a mock Sales Order API using ASP.NET Core to facilitate integration testing for automation tools.',
-        'Created a project monitoring dashboard using FastAPI and React to manage multiple software repositories.',
+        'Managing and developing information systems with a focus on enterprise-grade automation and data integrity.',
+        'Developing cross-platform mobile solutions with Flutter for ERP systems, including ticketing and logistics modules.',
+        'Optimizing backend services and database performance using PostgreSQL and SQL Server.',
       ],
     },
     {
-      company: 'Academic & Freelance',
-      role: 'Software Developer',
-      period: '2023 - 2024',
+      company: 'Academic & Project Focus',
+      role: 'Information Engineering Student',
+      period: 'Graduated July 2025',
       description: [
-        'Built custom desktop and web solutions using the C# / .NET ecosystem and modern JavaScript frameworks.',
-        'Designed and optimized relational database schemas for local business applications.',
-        'Managed full software development lifecycles from requirements gathering to deployment.',
+        'Built full-stack web applications using PHP, MySQL, and Java (Spring/JSP) with a focus on scalable architecture.',
+        'Developed complex desktop and web services using C# / .NET for industrial automation and printing.',
+        'Executed end-to-end development of mobile applications from UI/UX design to API integration.',
       ],
     },
   ];
