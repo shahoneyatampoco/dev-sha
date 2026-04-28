@@ -12,9 +12,9 @@ export default defineConfig({
       registerType: 'autoUpdate',
       includeAssets: ['favicon.ico', 'apple-touch-icon.png', 'mask-icon.svg'],
       manifest: {
-        name: 'Junior C# Developer Portfolio',
+        name: 'Modern Developer Portfolio',
         short_name: 'DevPortfolio',
-        description: 'Portfolio of a Junior C# / .NET Developer',
+        description: 'Professional Full-Stack Developer Portfolio',
         theme_color: '#ffffff',
         icons: [
           {
@@ -31,5 +31,5 @@ export default defineConfig({
       }
     })
   ],
-  base: '/junior-csharp-portfolio/', // Required for GitHub Pages
+  base: '/dev-sha/', // Required for GitHub Pages
 })

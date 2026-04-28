@@ -1,6 +1,5 @@
-import React from 'react';
 import { motion } from 'framer-motion';
-import { FileText, Github, Linkedin, Mail } from 'lucide-react';
+import { FileText, Globe, MessageSquare, Mail } from 'lucide-react';
 
 const Hero: React.FC = () => {
   return (
@@ -16,14 +15,14 @@ const Hero: React.FC = () => {
           transition={{ duration: 0.5 }}
         >
           <h2 className="text-blue-600 dark:text-blue-400 font-semibold tracking-wide uppercase text-sm mb-4">
-            Junior Full-Stack Developer
+            Full-Stack Software Engineer
           </h2>
           <h1 className="text-5xl md:text-7xl font-extrabold text-gray-900 dark:text-white mb-6">
             Hi, I'm <span className="bg-gradient-to-r from-blue-600 to-emerald-500 bg-clip-text text-transparent">Alex Chen</span>
           </h1>
           <p className="max-w-2xl mx-auto text-lg md:text-xl text-gray-600 dark:text-gray-400 mb-10 leading-relaxed">
-            I build robust, scalable applications with a focus on the **C# / .NET ecosystem**. 
-            Passionate about clean code, ERP systems, and modern web technologies.
+            I build elegant, high-performance web applications with modern technologies. 
+            Passionate about scalable architecture, clean code, and creating intuitive user experiences.
           </p>
         </motion.div>
 
@@ -53,10 +52,10 @@ const Hero: React.FC = () => {
           className="mt-12 flex justify-center space-x-6 text-gray-500 dark:text-gray-400"
         >
           <a href="#" className="hover:text-blue-600 dark:hover:text-blue-400 transition-colors">
-            <Github size={24} />
+            <Globe size={24} />
           </a>
           <a href="#" className="hover:text-blue-600 dark:hover:text-blue-400 transition-colors">
-            <Linkedin size={24} />
+            <MessageSquare size={24} />
           </a>
         </motion.div>
       </div>

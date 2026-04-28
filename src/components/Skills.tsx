@@ -1,28 +1,27 @@
-import React from 'react';
 import { motion } from 'framer-motion';
-import { Code2, Database, Layout, Server, Settings, Terminal } from 'lucide-react';
+import { Layout, Server, Settings, Terminal } from 'lucide-react';
 
 const Skills: React.FC = () => {
   const skillCategories = [
     {
       title: 'Languages',
       icon: <Terminal className="text-blue-500" />,
-      skills: ['C#', 'SQL', 'TypeScript', 'JavaScript', 'HTML5/CSS3'],
+      skills: ['TypeScript', 'JavaScript', 'C#', 'SQL', 'HTML5/CSS3'],
     },
     {
       title: 'Backend',
       icon: <Server className="text-emerald-500" />,
-      skills: ['ASP.NET Core', 'Web API', 'Entity Framework Core', 'LINQ', 'RESTful Services'],
+      skills: ['Node.js / Express', 'ASP.NET Core', 'PostgreSQL / MongoDB', 'RESTful APIs'],
     },
     {
       title: 'Frontend',
       icon: <Layout className="text-purple-500" />,
-      skills: ['React', 'Tailwind CSS', 'Redux / Context API', 'Responsive Design'],
+      skills: ['React / Next.js', 'Tailwind CSS', 'Redux / Context API', 'Responsive UI'],
     },
     {
       title: 'Tools & DevOps',
       icon: <Settings className="text-orange-500" />,
-      skills: ['Git / GitHub', 'Docker', 'Azure Fundamentals', 'Unit Testing (xUnit)', 'Postman'],
+      skills: ['Git / GitHub', 'Docker', 'AWS / Azure', 'CI/CD Pipelines', 'Testing'],
     },
   ];
 

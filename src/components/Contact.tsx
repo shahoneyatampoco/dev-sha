@@ -1,5 +1,4 @@
-import React from 'react';
-import { Github, Linkedin, Mail, MapPin } from 'lucide-react';
+import { MessageSquare, Mail, MapPin } from 'lucide-react';
 
 const Contact: React.FC = () => {
   return (
@@ -25,7 +24,7 @@ const Contact: React.FC = () => {
               
               <div className="flex items-center gap-4">
                 <div className="w-12 h-12 bg-emerald-100 dark:bg-emerald-900/30 rounded-xl flex items-center justify-center text-emerald-600 dark:text-emerald-400">
-                  <Linkedin size={24} />
+                  <MessageSquare size={24} />
                 </div>
                 <div>
                   <p className="text-sm text-gray-500 dark:text-gray-400">LinkedIn</p>

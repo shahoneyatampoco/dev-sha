@@ -1,4 +1,3 @@
-import React from 'react';
 import { BarChart3, Clock, Package, ShoppingCart, Users } from 'lucide-react';
 
 const MockDashboard: React.FC = () => {
@@ -20,8 +19,8 @@ const MockDashboard: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col md:flex-row md:items-center justify-between mb-12">
           <div>
-            <h2 className="text-3xl font-bold text-gray-900 dark:text-white">ERP Preview Dashboard</h2>
-            <p className="mt-2 text-gray-600 dark:text-gray-400">Example of an internal management UI built with React.</p>
+            <h2 className="text-3xl font-bold text-gray-900 dark:text-white">SaaS Analytics Dashboard</h2>
+            <p className="mt-2 text-gray-600 dark:text-gray-400">Example of a data-rich administration UI built with React.</p>
           </div>
           <div className="mt-4 md:mt-0 px-4 py-2 bg-white dark:bg-gray-800 rounded-lg shadow-sm border border-gray-100 dark:border-gray-700 flex items-center gap-2 text-sm text-gray-500 dark:text-gray-400">
             <Clock size={16} /> Last updated: Just now

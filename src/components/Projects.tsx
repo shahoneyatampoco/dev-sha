@@ -1,29 +1,28 @@
-import React from 'react';
 import { motion } from 'framer-motion';
-import { ExternalLink, Github } from 'lucide-react';
+import { ExternalLink, Globe } from 'lucide-react';
 
 const Projects: React.FC = () => {
   const projects = [
     {
-      title: 'E-Commerce Core API',
-      description: 'A robust backend for an e-commerce platform built with ASP.NET Core, EF Core, and SQL Server. Features JWT authentication and Stripe integration.',
-      tags: ['ASP.NET Core', 'EF Core', 'SQL Server', 'JWT'],
+      title: 'SaaS Platform Engine',
+      description: 'A robust multi-tenant SaaS backend with subscription management, RBAC, and automated billing integration.',
+      tags: ['Node.js', 'PostgreSQL', 'Stripe', 'Redis'],
       image: 'https://images.unsplash.com/photo-1557821552-17105176677c?auto=format&fit=crop&q=80&w=1000',
       github: '#',
       demo: '#',
     },
     {
-      title: 'Task Management System',
-      description: 'A real-time task management application with a React frontend and a C# Web API backend. Uses SignalR for live updates.',
-      tags: ['React', 'SignalR', 'Web API', 'Tailwind'],
+      title: 'Real-time Collaborative Tool',
+      description: 'A high-performance workspace for teams with live document editing, chat, and notification systems.',
+      tags: ['React', 'WebSockets', 'Tailwind', 'Next.js'],
       image: 'https://images.unsplash.com/photo-1540350394557-8d14678e7f91?auto=format&fit=crop&q=80&w=1000',
       github: '#',
       demo: '#',
     },
     {
-      title: 'Library Inventory Tool',
-      description: 'A desktop application for managing library books and loans, utilizing WPF and SQLite for local data storage.',
-      tags: ['WPF', 'C#', 'SQLite', 'MVVM'],
+      title: 'Enterprise Inventory Hub',
+      description: 'A comprehensive management system for large-scale inventory tracking, reporting, and logistics.',
+      tags: ['TypeScript', 'GraphQL', 'Docker', 'Prisma'],
       image: 'https://images.unsplash.com/photo-1507842217343-583bb7270b66?auto=format&fit=crop&q=80&w=1000',
       github: '#',
       demo: '#',
@@ -63,7 +62,7 @@ const Projects: React.FC = () => {
                 </div>
                 <div className="flex justify-between items-center">
                   <a href={project.github} className="flex items-center text-gray-500 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors font-medium">
-                    <Github size={18} className="mr-2" /> Code
+                    <Globe size={18} className="mr-2" /> Code
                   </a>
                   <a href={project.demo} className="flex items-center text-blue-600 dark:text-blue-400 hover:underline font-medium">
                     <ExternalLink size={18} className="mr-2" /> Demo
