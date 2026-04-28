@@ -4,22 +4,22 @@ const Experience: React.FC = () => {
   const experiences = [
     {
       company: 'Junior Information Engineer',
-      role: 'Full-Cycle Engineering',
+      role: 'Software Developer',
       period: 'Jan 2026 - Present',
       description: [
-        'Architecting robust information systems with a focus on enterprise-scale automation and data consistency.',
-        'Developing high-concurrency mobile modules for ERP ecosystems using Flutter and clean architecture principles.',
-        'Optimizing high-availability database systems (PostgreSQL/SQL Server) for mission-critical operations.',
+        'Developing and maintaining software systems for business automation.',
+        'Building mobile app features with Flutter for ERP systems.',
+        'Managing and optimizing databases like PostgreSQL and SQL Server.',
       ],
     },
     {
       company: 'Information Engineering Graduate',
-      role: 'Foundational Systems Design',
+      role: 'Student Developer',
       period: 'Class of 2025',
       description: [
-        'Mastered full-stack engineering with PHP (Laravel), Java (Spring), and .NET 10 during intensive project cycles.',
-        'Engineered hardware-integrated desktop services for industrial environments, solving real-world latency and reliability issues.',
-        'Implemented end-to-end data security and relational integrity in student-led enterprise simulations.',
+        'Learned web development with PHP, Java, and C# through various projects.',
+        'Built desktop tools that work with hardware, specifically for industrial printing.',
+        'Designed and managed database structures for class projects and simulations.',
       ],
     },
   ];

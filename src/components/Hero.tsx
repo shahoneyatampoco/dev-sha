@@ -15,20 +15,15 @@ const Hero: React.FC = () => {
           transition={{ duration: 0.5 }}
         >
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-500/10 border border-blue-500/20 text-blue-400 text-xs font-mono mb-6">
-            <span className="relative flex h-2 w-2">
-              <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-blue-400 opacity-75"></span>
-              <span className="relative inline-flex rounded-full h-2 w-2 bg-blue-500"></span>
-            </span>
-            Available for mission-critical projects
+            Junior Information Engineer
           </div>
           
           <h1 className="text-6xl md:text-8xl font-bold tracking-tighter text-white mb-8">
-            Engineering systems with <span className="text-blue-500">precision.</span>
+            I build software that <span className="text-blue-500">works.</span>
           </h1>
           
           <p className="max-w-2xl mx-auto text-lg md:text-xl text-slate-400 mb-12 leading-relaxed">
-            I'm <span className="text-slate-100 font-medium">Shahoney Tampoco</span>, a Junior Information Engineer specializing in bridge-building between complex hardware and modern web ecosystems. 
-            Currently architecting automated solutions and scalable ERP companions.
+            Hi, I'm <span className="text-slate-100 font-medium">Shahoney Tampoco</span>. I develop web applications, mobile apps with Flutter, and desktop tools that connect software to hardware.
           </p>
         </motion.div>
 
