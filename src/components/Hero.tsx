@@ -15,7 +15,7 @@ const Hero: React.FC = () => {
           transition={{ duration: 0.5 }}
         >
           <h2 className="text-blue-600 dark:text-blue-400 font-semibold tracking-wide uppercase text-sm mb-4">
-            Full-Stack Software Engineer
+            Junior Information Engineer
           </h2>
           <h1 className="text-5xl md:text-7xl font-extrabold text-gray-900 dark:text-white mb-6">
             Hi, I'm <span className="bg-gradient-to-r from-blue-600 to-emerald-500 bg-clip-text text-transparent">Alex Chen</span>

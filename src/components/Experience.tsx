@@ -3,23 +3,23 @@ import { Briefcase, Calendar } from 'lucide-react';
 const Experience: React.FC = () => {
   const experiences = [
     {
-      company: 'Tech Solutions Inc.',
-      role: 'Junior .NET Developer (Intern)',
-      period: 'Jan 2025 - Present',
+      company: 'Personal Development',
+      role: 'Junior Information Engineer',
+      period: '2024 - Present',
       description: [
-        'Collaborated on a legacy ERP migration from .NET Framework to ASP.NET Core.',
-        'Developed REST APIs using Web API and Entity Framework Core.',
-        'Improved application performance by optimizing SQL queries.',
+        'Developed a high-performance .NET 10 desktop service for automated retail printing, integrating ESC/POS network protocols.',
+        'Architected a mock Sales Order API using ASP.NET Core to facilitate integration testing for automation tools.',
+        'Created a project monitoring dashboard using FastAPI and React to manage multiple software repositories.',
       ],
     },
     {
-      company: 'Freelance / Projects',
-      role: 'Full-Stack Developer',
+      company: 'Academic & Freelance',
+      role: 'Software Developer',
       period: '2023 - 2024',
       description: [
-        'Built several custom web applications for small businesses using React and C#.',
-        'Designed and implemented relational databases with SQL Server.',
-        'Managed source code and deployments using Git and Azure App Service.',
+        'Built custom desktop and web solutions using the C# / .NET ecosystem and modern JavaScript frameworks.',
+        'Designed and optimized relational database schemas for local business applications.',
+        'Managed full software development lifecycles from requirements gathering to deployment.',
       ],
     },
   ];
