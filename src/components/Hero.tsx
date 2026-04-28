@@ -19,11 +19,11 @@ const Hero: React.FC = () => {
           </div>
           
           <h1 className="text-6xl md:text-8xl font-bold tracking-tighter text-white mb-8">
-            I build software that <span className="text-blue-500">works.</span>
+            Shahoney Tampoco
           </h1>
           
           <p className="max-w-2xl mx-auto text-lg md:text-xl text-slate-400 mb-12 leading-relaxed">
-            Hi, I'm <span className="text-slate-100 font-medium">Shahoney Tampoco</span>. I develop web applications, mobile apps with Flutter, and desktop tools that connect software to hardware.
+            I'm a Junior Information Engineer. I build web and mobile applications that help businesses automate their work.
           </p>
         </motion.div>
 
