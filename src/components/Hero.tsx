@@ -23,7 +23,7 @@ const Hero: React.FC = () => {
           </h1>
           
           <p className="max-w-2xl mx-auto text-lg md:text-xl text-slate-400 mb-12 leading-relaxed">
-            I'm a Junior Information Engineer. I build web and mobile applications that help businesses automate their work.
+            I'm a Junior Information Engineer. I build web, desktop and mobile applications that help businesses automate their work.
           </p>
         </motion.div>
 
