@@ -9,16 +9,18 @@ const Experience: React.FC = () => {
       description: [
         'Developing and maintaining software systems for business automation.',
         'Building mobile app features with Flutter for ERP systems.',
+        'Built desktop tools that work with hardware, specifically for industrial printing.'
         'Managing and optimizing databases like PostgreSQL and SQL Server.',
       ],
     },
     {
-      company: 'Information Engineering Graduate',
+      company: 'Information Technology Graduate',
       role: 'Student Developer',
       period: 'Class of 2025',
       description: [
-        'Learned web development with PHP, Java, and C# through various projects.',
-        'Built desktop tools that work with hardware, specifically for industrial printing.',
+        'Learned web development with PHP, Java, python and C# through various projects.',
+        'Built static and dynamic websites',
+        'Built desktop and android application',
         'Designed and managed database structures for class projects and simulations.',
       ],
     },
