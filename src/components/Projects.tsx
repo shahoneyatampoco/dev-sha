@@ -5,7 +5,7 @@ const Projects: React.FC = () => {
   const projects = [
     {
       title: 'Uniti ERP Companion',
-      description: 'A mobile app for business management. I built features for tracking attendance, scanning documents, and managing shipments to help teams work better.',
+      description: 'A mobile app for business management. I built features for Support Tickets',
       tags: ['Flutter', 'Mobile', 'ERP'],
       image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=1000',
       github: '#',
@@ -20,7 +20,7 @@ const Projects: React.FC = () => {
       demo: '#',
     },
     {
-      title: 'Operations Dashboard',
+      title: 'SLSU Alumni Federation Management System',
       description: 'A simple dashboard to monitor local projects and system status. It provides a quick way to see how different parts of a system are performing.',
       tags: ['Web', 'SQL', 'React'],
       image: 'https://images.unsplash.com/photo-1540350394557-8d14678e7f91?auto=format&fit=crop&q=80&w=1000',
